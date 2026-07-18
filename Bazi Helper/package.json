@@ -1,0 +1,26 @@
+{
+  "name": "bazi-numerology-assistant",
+  "version": "1.0.0",
+  "description": "八字命理智能分析助手 - 基于25部经典命理古籍，支持多流派分析",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/cli/baziCli.js",
+    "test": "node -e \"require('./src/index.js'); console.log('模块加载成功')\""
+  },
+  "dependencies": {
+    "douyin-text-extractor": "^1.1.2",
+    "lunar-javascript": "^1.7.7",
+    "pdfjs-dist": "^6.1.200",
+    "puppeteer-core": "^25.3.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "keywords": [
+    "八字",
+    "命理",
+    "排盘",
+    "子平",
+    "五行"
+  ],
+  "author": "",
+  "license": "MIT"
+}
